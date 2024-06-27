@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Je suis Développeur Web Full Stack freelance basé à Montpellier. Passionné par le design et la technologie, j'aime développer des landing pages, sites web et applications avec une grande attention portée aux détails et à la performance.">
+	<meta name="robots" content="index,follow">
+	<title>Alexis Bergel - Développeur web</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/interface/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/interface/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/interface/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/images/interface/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/images/interface/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/images/interface/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="msapplication-config" content="/images/interface/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<nav>
+		<a href=""><img class="nav__logo" src="/images/interface/main-logo.svg" alt="Main logo"></a>
+		<p class="nav__top-button">alexisbergel.com<span>/</span></p>
+		<ul class="nav__links">
+			<li><a class="nav__links--selected" href="#about">À propos</a></li>
+			<li><a href="#work">Réalisations</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+
+		<ul class="nav__footer-links">
+			<li><a href="mailto:contact@alexisbergel.com">Mail</a></li>
+			<li><a href="https://www.linkedin.com/in/alexisbergel/">LinkedIn</a></li>
+			<li><a href="https://twitter.com/alexisbergel">X.com</a></li>
+		</ul>
+
+		<a class="nav__contact--button" href="mailto:contact@alexisbergel.com">contact@alexisbergel.com</a>
+	</nav>
+
+	<main>
+		<section id="about" data-dynamic-title="Voir mes réalisations">
+			<div class="section__header content--small">
+				<h1>Alexis Bergel</h1>
+				<h2>Designer & <br> Développeur Web</h2>
+				<p>Je suis Développeur Web Full Stack freelance basé à Montpellier. <br/> Passionné par le design et la technologie, j'aime développer des landing pages, sites web et applications avec une grande attention portée aux détails et à la performance.</p>
+			</div>
+		</section>
+
+		<section id="work" data-dynamic-title="Dire bonjour">
+			<div class="section__header content--center content--small">
+				<h1>Réalisations</h1>
+				<h2>Parler c'est bien,<br/> montrer c'est mieux.</h2>
+				<p>Votre projet, bientôt ici.</p>
+			</div>
+
+			<div class="work__content content--large">
+
+				<div class="work__content__card content--center">
+					<div class="work__content__card__content">
+						<h1>Portfolio</h1>
+						<h2>Guillaume Floris<br/>Photographe</h2>
+						<div class="work_content__card__header__nav">
+							<a href="https://guillaumefloris.com" target="_blank" class="work_content__card__header__nav__button work_content__card__header__nav__button--outlined">Visiter le site</a>
+							<!--<a href="#" class="work_content__card__header__nav__button work_content__card__header__nav__button--outlined">Lire l'histoire</a>-->
+						</div>
+						<img src="images/work/gflrs.jpg" alt="Screenshot of the website guillaumefloris.com">
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="contact" data-dynamic-title="">
+			<div class="section__header content--center content--small">
+				<h1>Contact</h1>
+				<h2>C'est le moment <br/>de parler.</h2>
+				<p>Si vous avez des questions, un projet de site web ou de landing page en tête, <br/> ou même si vous avez juste une idée vague, n’hésitez pas à me contacter.</p>
+			</div>
+			
+			<div class="contact__content content--large">
+				<form>
+					<div class="form-input">
+						<label for="contact__form__mail">Mail <span>(Requis)</span></label>
+						<input id="contact__form__mail" type="mail" name="mail" placeholder="Adresse mail">
+					</div>
+		
+					<div class="form-input">
+						<label for="contact__form__message">Message <span>(Requis)</span></label>
+						<textarea id="contact__form__message" name="message" placeholder="Écrire ici..."></textarea>
+					</div>
+		
+					<input type="submit" value="Envoyer le message" aria-label="Submit the form">
+				</form>
+	
+				<div class="contact__form-response">
+					<div>
+						<div class="contact__form-response__icon"></div>
+						<h4>Message envoyé</h4>
+						<p>Message reçu cinq sur cinq ! Je reviens vers vous très vite.</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<img src="images/interface/footer-logo.svg" alt="Main logo">
+		<h3>Réalisé par Alexis Bergel</h3>
+		<p>Basé à Montpellier</p>
+	</footer>
+
+	<div class="bottom-navigation">
+		<ul class="bottom-navigation__links">
+			<li><a href="mailto:contact@alexisbergel.com">Mail</a></li>
+			<li><a href="https://www.linkedin.com/in/alexisbergel/">LinkedIn</a></li>
+			<li><a href="https://twitter.com/alexisbergel">X.com</a></li>
+		</ul>
+	</div>
+
+	<div class="bottom-navigation bottom-navigation--left">
+		<ul class="bottom-navigation__languages">
+			<li><a href="/">EN</a></li>
+			<li><a class="bottom-navigation__languages--selected" href="/fr">FR</a></li>
+		</ul>
+	</div>
+
+	<a class="dynamic-button" href="#work" role="button">
+		<div class="dynamic-button__content">
+			<img src="images/interface/arrow-icon.svg">
+			<span>Voir mes réalisations</span>
+		</div>
+	</a>
+
+	<div class="mobile-nav">
+		<a href=""><img class="nav__logo" src="/images/interface/main-logo.svg" alt="Main logo"></a>
+		<button type="button" aria-label="Open navigation menu">Menu</button>
+	</div>
+
+	<script src="js/main.js"></script>
+	<script src="js/contact.js"></script>
+</body>
+</html>
