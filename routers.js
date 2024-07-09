@@ -12,7 +12,7 @@ router.get('/fr', mainController.FR_page);
 
 
 //* CONTACT FORM
-router.post('/contact', mainController.sendMessage);
+router.post('/contact', rateLimiter, mainController.sendMessage);
 
 
 
