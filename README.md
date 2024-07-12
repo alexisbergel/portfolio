@@ -1,7 +1,7 @@
 # Personal portfolio
-It is a simple landing page with three key sections: About, Work, and Contact. The idea is to introduce myself and showcase my completed works, as well as various social links.
+It is a simple landing page with three key sections : About, Work and Contact. The idea is to introduce myself and showcase my completed works, as well as various social links.
 
-![Product Screenshot](/images/screeshot.png)
+![Product Screenshot](https://alexisbergel.com/images/screeshot.png)
 
 # Features
 - Contact form
@@ -28,7 +28,7 @@ It is a simple landing page with three key sections: About, Work, and Contact. T
 - nodemailer
 
 # Prerequisites
-The application relies on environment variables, particularly for sending the contact form. Without these variables, the application works but will return an error when attempting to send a message (see the .env.example file)
+The application relies on environment variables, particularly for sending the contact form. Without these variables, the application works but will return an error when attempting to send a message (see the .env.example file).
 
 # Installation
 There are two possible methods depending on whether you want to use Docker or not.
@@ -59,4 +59,4 @@ At the root of the project, enter the following command to run the project :
 The website is available on port 3001 : [localhost:3001/](localhost:3001/).
 
 # Performances
-![Product Screenshot](/images/performances.png)
+![Product Screenshot](https://alexisbergel.com/images/performances.png)
