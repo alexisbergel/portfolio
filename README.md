@@ -1,7 +1,7 @@
 # Personal portfolio
 It is a simple landing page with three key sections : About, Work and Contact. The idea is to introduce myself and showcase my completed works, as well as various social links.
 
-<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/screenshot.png" alt="Product Screenshot" style="width:70%; margin:auto;"/>
+<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/screenshot.png" alt="Product Screenshot" style="width:70%; text-align:center;"/>
 
 ## Features
 - Contact form
@@ -50,6 +50,7 @@ docker run <imageName>
 
 The website is available on port 3001 : [localhost:3001/](localhost:3001/).
 
+
 ### Installation without Docker
 **Prerequisites :** [install Node.js and npm](https://nodejs.org/en/download/package-manager).
 
@@ -59,4 +60,4 @@ At the root of the project, enter the following command to run the project :
 The website is available on port 3001 : [localhost:3001/](localhost:3001/).
 
 ## Performances
-<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/performances.png" alt="Performances Screenshot" style="width:35%; margin:auto;"/>
+<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/performances.png" alt="Performances Screenshot" style="width:35%; text-align:center;"/>
