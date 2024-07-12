@@ -1,9 +1,9 @@
 # Personal portfolio
 It is a simple landing page with three key sections : About, Work and Contact. The idea is to introduce myself and showcase my completed works, as well as various social links.
 
-![Product Screenshot](https://alexisbergel.com/images/screeshot.png)
+![Product Screenshot](https://github.com/alexisbergel/portfolio/blob/main/public/images/screenshot.png)
 
-# Features
+## Features
 - Contact form
 - Fully responsive website
 - Sending limit on the contact form
@@ -13,13 +13,13 @@ It is a simple landing page with three key sections : About, Work and Contact. T
 - SEO
 - Performances
 
-# Built with
+## Built with
 - Node.js | Express.js 
 - Vanilla JavaScript (Front-end)
 - Docker (Deployment)
 - HTML, CSS
 
-# npm packages
+## npm packages
 - cors
 - dotenv
 - ejs
@@ -27,13 +27,13 @@ It is a simple landing page with three key sections : About, Work and Contact. T
 - express-rate-limit
 - nodemailer
 
-# Prerequisites
+## Prerequisites
 The application relies on environment variables, particularly for sending the contact form. Without these variables, the application works but will return an error when attempting to send a message (see the .env.example file).
 
-# Installation
+## Installation
 There are two possible methods depending on whether you want to use Docker or not.
 
-## Installation with Docker
+### Installation with Docker
 Prerequisites : [install Docker](https://docs.docker.com/desktop/).
 
 Once Docker is installed, there are two steps :
@@ -50,7 +50,7 @@ docker run <imageName>
 
 The website is available on port 3001 : [localhost:3001/](localhost:3001/).
 
-## Installation without Docker
+### Installation without Docker
 Prerequisites : [install Node.js and npm](https://nodejs.org/en/download/package-manager).
 
 At the root of the project, enter the following command to run the project : 
@@ -58,5 +58,5 @@ At the root of the project, enter the following command to run the project :
 
 The website is available on port 3001 : [localhost:3001/](localhost:3001/).
 
-# Performances
-![Product Screenshot](https://alexisbergel.com/images/performances.png)
+## Performances
+![Product Screenshot](https://github.com/alexisbergel/portfolio/blob/main/public/images/performances.png)
