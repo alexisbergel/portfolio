@@ -1,7 +1,7 @@
 # Personal portfolio
 It is a simple landing page with three key sections : About, Work and Contact. The idea is to introduce myself and showcase my completed works, as well as various social links.
 
-![Product Screenshot](https://github.com/alexisbergel/portfolio/blob/main/public/images/screenshot.png)
+<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/screenshot.png" alt="Product Screenshot" style="width:70%; margin:auto;"/>
 
 ## Features
 - Contact form
@@ -34,7 +34,7 @@ The application relies on environment variables, particularly for sending the co
 There are two possible methods depending on whether you want to use Docker or not.
 
 ### Installation with Docker
-Prerequisites : [install Docker](https://docs.docker.com/desktop/).
+**Prerequisites :** [install Docker](https://docs.docker.com/desktop/).
 
 Once Docker is installed, there are two steps :
 
@@ -51,7 +51,7 @@ docker run <imageName>
 The website is available on port 3001 : [localhost:3001/](localhost:3001/).
 
 ### Installation without Docker
-Prerequisites : [install Node.js and npm](https://nodejs.org/en/download/package-manager).
+**Prerequisites :** [install Node.js and npm](https://nodejs.org/en/download/package-manager).
 
 At the root of the project, enter the following command to run the project : 
 `node app.js` or `nodemon app.js`
@@ -59,4 +59,4 @@ At the root of the project, enter the following command to run the project :
 The website is available on port 3001 : [localhost:3001/](localhost:3001/).
 
 ## Performances
-![Product Screenshot](https://github.com/alexisbergel/portfolio/blob/main/public/images/performances.png)
+<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/performances.png" alt="Performances Screenshot" style="width:35%; margin:auto;"/>
