@@ -35,7 +35,7 @@ The application relies on environment variables, particularly for sending the co
 ## Installation
 There are two possible methods depending on whether you want to use Docker or not.
 
-### Installation with Docker
+### 1. Installation with Docker
 **Prerequisites :** [install Docker](https://docs.docker.com/desktop/).
 
 Once Docker is installed, there are two steps :
@@ -50,16 +50,16 @@ docker build -t <imageName> .
 docker run <imageName>
 ```
 
-The website is available on port 3001 : [localhost:3001/](localhost:3001/).
+The website is available on port 3001 : localhost:3001/.
 
 
-### Installation without Docker
+### 2. Installation without Docker
 **Prerequisites :** [install Node.js and npm](https://nodejs.org/en/download/package-manager).
 
 At the root of the project, enter the following command to run the project : 
 `node app.js` or `nodemon app.js`
 
-The website is available on port 3001 : [localhost:3001/](localhost:3001/).
+The website is available on port 3001 : localhost:3001/.
 
 ## Performances
 <img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/performances.png" alt="Performances Screenshot" style="width:35%; text-align:center;"/>
