@@ -1,7 +1,9 @@
 # Personal portfolio
 It is a simple landing page with three key sections : About, Work and Contact. The idea is to introduce myself and showcase my completed works, as well as various social links.
 
-<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/screenshot.png" alt="Product Screenshot" style="width:70%; text-align:center;"/>
+<p align="center" width="100%">
+<img src="https://github.com/alexisbergel/portfolio/blob/main/public/images/screenshot.png" alt="Product Screenshot" style="width:70%;"/>
+</p>
 
 ## Features
 - Contact form
